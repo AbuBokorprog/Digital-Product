@@ -1,3 +1,58 @@
-p {
-  color: red;
+* {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+
+.header {
+  background-color: #6baeec;
+  padding-top: 10px;
+}
+nav {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+.navbar {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: aliceblue;
+}
+#heading {
+  font-size: 35px;
+  padding: 10px 0;
+}
+.paragraph {
+  font-size: 20px;
+}
+input {
+  margin: 20px 0px;
+}
+#email {
+  width: 300px;
+  padding: 20px 0 20px 5px;
+}
+#submit {
+  width: 100px;
+  padding: 20px 0 20px 5px;
+  background-color: orange;
+  border: none;
+}
+#submit:hover {
+  background-color: rgb(241, 191, 97);
+}
+img {
+  width: 350px;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#input {
+  display: flex;
 }
