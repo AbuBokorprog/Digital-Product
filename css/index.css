@@ -29,6 +29,8 @@ nav {
 }
 input {
   margin: 20px 0px;
+  border-radius: 10px;
+  border: none;
 }
 #email {
   width: 300px;
@@ -101,7 +103,7 @@ input {
 }
 
 #section2 {
-  margin: 50px 0;
+  margin: 100px 0;
   /* background-color: #add3f8; */
 }
 #section-flex {
@@ -118,7 +120,7 @@ input {
   margin: 20px 0;
   background-color: orange;
   font-size: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
   width: 200px;
   padding: 20px;
@@ -141,4 +143,133 @@ input {
   border: none;
   width: 200px;
   padding: 20px;
+}
+
+#section-3 {
+  margin: 100px 0 100px 0;
+}
+
+#section3-flex {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto auto;
+}
+
+#global-audience {
+  padding: 40px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ec6bec;
+  width: 300px;
+  border-radius: 20px;
+}
+#audience-age {
+  padding: 40px;
+  font-size: 16px;
+  text-align: center;
+  background-color: orange;
+  width: 300px;
+  border-radius: 20px;
+}
+#content {
+  padding: 40px;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(125, 235, 150);
+  width: 300px;
+  border-radius: 20px;
+}
+#campaigns {
+  padding: 40px;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(127, 231, 236);
+  width: 300px;
+  border-radius: 20px;
+}
+
+.audience {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#section-4 {
+  margin: 100px 0 100px 0;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px 0;
+}
+
+.section-4-title {
+  font-size: 50px;
+  font-weight: 400;
+}
+#section4-flex {
+  display: grid;
+  gap: 10px;
+  column-gap: 5px;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto auto;
+}
+
+#seo {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ec6bec;
+  width: 300px;
+  border-radius: 20px;
+}
+
+#development {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ec6bec;
+  width: 300px;
+  border-radius: 20px;
+}
+#web-design {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ec6bec;
+  width: 300px;
+  border-radius: 20px;
+}
+#cms {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ec6bec;
+  width: 300px;
+  border-radius: 20px;
+}
+#maintaince {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ec6bec;
+  width: 300px;
+  border-radius: 20px;
+}
+#hosting {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ec6bec;
+  width: 300px;
+  border-radius: 20px;
+}
+.seo-img {
+  width: 70px;
+}
+.seo-title {
+  font-size: 25px;
 }
