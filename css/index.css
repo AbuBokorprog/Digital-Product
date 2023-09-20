@@ -19,9 +19,10 @@ nav {
   font-size: 20px;
   color: aliceblue;
 }
-#heading {
-  font-size: 35px;
+.heading {
+  font-size: 40px;
   padding: 10px 0;
+  font-weight: 800;
 }
 .paragraph {
   font-size: 20px;
@@ -58,14 +59,13 @@ input {
   display: flex;
 }
 
-#profile1 {
-  width: 500px;
-  padding-left: 0;
+.profile {
+  width: 450px;
 }
 
 #section1 {
   padding-top: 40px;
-  margin: 30px 0;
+  margin: 100px 0;
 }
 
 #sectionflex {
@@ -75,12 +75,12 @@ input {
   justify-content: center;
 }
 
-#profileflex1 {
+/* #profileflex1 {
   display: flex;
   flex-direction: column;
   column-gap: 5px;
   align-items: center;
-}
+} */
 
 #profileflex2 {
   display: flex;
@@ -93,10 +93,52 @@ input {
   width: 450px;
   text-align: center;
   margin-bottom: 10px;
-  background-color: #add3f8;
   box-shadow: 0 0 5px 5px rgb(231, 231, 239);
   border-radius: 10px;
 }
 .details > img {
   width: 60px;
+}
+
+#section2 {
+  margin: 50px 0;
+  /* background-color: #add3f8; */
+}
+#section-flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section2-details {
+}
+
+#read-more {
+  margin: 20px 0;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  padding: 20px;
+}
+
+#section2-bottom {
+  background-color: #6baeec;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+#get-started {
+  margin: 20px 0;
+  background-color: rgb(243, 100, 241);
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  padding: 20px;
 }
