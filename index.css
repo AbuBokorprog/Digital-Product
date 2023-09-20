@@ -27,7 +27,7 @@ nav {
 .paragraph {
   font-size: 20px;
 }
-input {
+#input > input {
   margin: 20px 0px;
   border-radius: 10px;
   border: none;
@@ -36,11 +36,13 @@ input {
   width: 300px;
   padding: 20px 0 20px 5px;
 }
-#submit {
+.submit {
   width: 100px;
   padding: 20px 0 20px 5px;
-  background-color: orange;
+  background-color: rgb(145, 180, 244);
   border: none;
+  border-radius: 10px;
+  font-size: 20px;
 }
 #submit:hover {
   background-color: rgb(241, 191, 97);
@@ -135,7 +137,7 @@ input {
   border-radius: 20px;
 }
 
-#get-started {
+.get-started {
   margin: 20px 0;
   background-color: rgb(243, 100, 241);
   font-size: 20px;
@@ -272,4 +274,60 @@ input {
 }
 .seo-title {
   font-size: 25px;
+}
+#section-5 {
+  background-color: orange;
+  padding: 40px 0;
+}
+#banner2 {
+  width: 400px;
+}
+#section-5-flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px 0;
+}
+#form {
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.section-5-input {
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+}
+#message {
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 0 10px;
+}
+#contact {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.reviews {
+  background-color: azure;
+  width: 400px;
+  margin: 10px 0;
+  padding: 50px 10px;
+}
+#reviews-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-6-title {
+  text-align: center;
+}
+#footer {
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
 }
